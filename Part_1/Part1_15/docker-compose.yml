@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  sorting_algorithms:
+    build:
+      context: .  
+    image: zelhs/sortinghelsinki  
+    ports:
+      - "8080:8080"  
