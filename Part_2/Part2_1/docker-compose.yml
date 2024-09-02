@@ -5,5 +5,3 @@ services:
     volumes:
       - ./text.txt:/usr/src/app/text.log
     image: devopsdockeruh/simple-web-service
-    ports: 
-      - "8080:8080"  
